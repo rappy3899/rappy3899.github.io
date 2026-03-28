@@ -1,15 +1,21 @@
+h1 {
+    background-color: red;
+    padding: 5px;
+    width: fit-content;
+}
 .work {
+    background-color: lightcoral;
     width: 100%;
     margin: auto;
     margin-top: 5px;
-    border: 3px solid limegreen;
+    border: 3px solid red;
     border-radius: 10px;
     border-collapse: collapse;
     cursor: pointer;
 }
 
 td {
-    border: 1px dotted green;
+    border: 1px dotted darkred;
 }
 
 .workImage {
@@ -24,7 +30,7 @@ td {
 
 .workTitle {
     font-size: 1.2em;
-    color: limegreen;
+    color: crimson;
 }
 
 .workDescription {

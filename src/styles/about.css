@@ -1,5 +1,50 @@
-#mainParagraph {
-    border: 3px solid limegreen;
+h1 {
+    background-color: red;
+    width: fit-content;
+}
+#about, #characters {
+    margin-top: 15px;
+    border: solid 3px red;
+    background-color: lightcoral;
     border-radius: 10px;
+}
+#about h2, #characters h2 {
+    color: crimson;
     padding: 5px;
+}
+#about p {
+    border-top: dotted 1px darkred;
+    padding: 5px;
+}
+#characters h3 {
+    padding: 5px;
+}
+#rune, #ruka, #rura {
+    padding: 5px;
+}
+#rune {
+    background-color: lightskyblue;
+}
+#rune h3 {
+    color: blue;
+}
+#ruka {
+    background-color: lightcoral;
+}
+#ruka h3 {
+    color: crimson;
+}
+#rura {
+    background-color: lightyellow;
+    border-radius: 0px 0px 10px 10px;
+}
+#rura h3 {
+    color: gold;
+}
+.charDesc {
+    display: flex;
+}
+#characters img {
+    width: 150px;
+    height: 150px;
 }

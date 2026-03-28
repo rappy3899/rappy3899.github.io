@@ -22,6 +22,14 @@
   font-style: normal;
 }
 
+body {
+  background-image: url("/img/background.png"); 
+  background-repeat: no-repeat;                 
+  background-position: center;                  
+  background-size: cover;                       
+  background-attachment: fixed;                 
+}
+
 /* パソコン用 */
 @media screen and (min-width: 430px) {
     header {
@@ -40,7 +48,7 @@
     header nav {
         cursor: pointer;
         justify-content: center;
-        background-color: lime;
+        background-color: red;
         cursor: pointer;
     }
     header nav ul {
@@ -71,31 +79,41 @@
         margin: auto;
         margin-top: 5px;
     }
+    #left h2 {
+        color: gold;
+    }
+    #right h2 {
+        color: blue;
+    }
     main #main {
         width: 40%;
         margin: auto;
         margin-top: 5px;
     }
     #intro {
-        border: 3px solid limegreen;
+        border: 3px solid rgb(255, 255, 0);
+        background-color: lightyellow;
         border-radius: 10px;
         margin-bottom: 10px;
         padding: 5px;
     }
     #calendar {
-        border: 3px solid limegreen;
+        border: 3px solid cyan;
+        background-color: lightcyan;
         border-radius: 10px;
         margin-bottom: 10px;
         padding: 5px;
     }
     #twitter {
-        border: 3px solid dodgerblue;
+        border: 3px solid yellow;
+        background-color: lightyellow;
         border-radius: 10px;
         margin-bottom: 10px;
         padding: 5px;
     }
     #links {
-        border: 3px solid dodgerblue;
+        border: 3px solid cyan;
+        background-color: lightcyan;
         border-radius: 10px;
         margin-bottom: 10px;
         padding: 5px;
@@ -105,8 +123,8 @@
     }
     footer {
         text-align: center;
-        background-color: lightskyblue;
-        color: forestgreen;
+        background-color: #00519A;
+        color: black;
         padding: 5px;
         margin-top: 5px;
     }
@@ -129,7 +147,7 @@
     header nav {
         cursor: pointer;
         justify-content: center;
-        background-color: lime;
+        background-color: red;
         cursor: pointer;
     }
     header nav ul {
@@ -154,8 +172,8 @@
     }
     footer {
         text-align: center;
-        background-color: lightskyblue;
-        color: forestgreen;
+        background-color: #00519A;
+        color: black;
         padding: 5px;
         margin-top: 5px;
         width: 100%;
