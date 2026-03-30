@@ -8,6 +8,8 @@ const profileLines = [
     "YMMで動画作ったり，Blenderで3Dモデリングやったりもするよ！",
     "みんな，私のことはラッピーって呼んでくれ！よろしくな！",
 ];
+
+const canonicalURL = new URL(Astro.url.pathname, 'https://rappy3899.github.io/');
 ---
 
 <!doctype html>
@@ -18,7 +20,7 @@ const profileLines = [
         <title>{pageTitle}</title>
         <meta name="description" content={description} />
         <link rel="icon" href="/favicon.svg">
-        <link rel="canonical" href="https://rappy3899.github.io/">
+        <link rel="canonical" href={canonicalURL} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
