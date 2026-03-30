@@ -5,7 +5,7 @@ export default defineConfig({
   site: 'https://rappy3899.github.io',
   trailingSlash: 'always',
   build: {
-    format: 'file'
+    format: 'directory'
   },
   integrations: [
     sitemap({
