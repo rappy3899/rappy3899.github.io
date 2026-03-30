@@ -3,6 +3,7 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://rappy3899.github.io',
+  trailingSlash: 'always',
   integrations: [
     sitemap({
       customPages: [
