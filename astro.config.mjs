@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://rappy3899.github.io',
-  trailingSlash: 'always',
+  trailingSlash: 'never',
   build: {
     format: 'directory'
   },
