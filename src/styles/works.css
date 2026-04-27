@@ -12,6 +12,9 @@ h1 {
     border-radius: 10px;
     border-collapse: collapse;
     cursor: pointer;
+    table-layout: fixed;
+    word-break: break-all;
+    border-collapse: collapse;
 }
 
 td {
@@ -22,10 +25,9 @@ td {
     width: 30%;
 }
 
-.workImg {
+.workImage img {
     width: 100%;
-    margin-bottom: 10px;
-    padding: 5px;
+    height: auto;
 }
 
 .workTitle {
